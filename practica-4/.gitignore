@@ -1,1 +1,3 @@
 test.txt
+# nombreCarpeta/ (Para ignorar una carpeta)
+# *.txt (Para ignorar todos los archivos terminados en .txt, puede aplicar tambien en otras)
