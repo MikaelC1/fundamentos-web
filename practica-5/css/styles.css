@@ -1,0 +1,89 @@
+body{
+    width: 100%;
+    height: 100%;
+    margin: 0px;
+    background-color: rgb(234, 231, 231);
+}
+@font-face {
+    font-family: "HolderLight";
+    src: url("../fonts/HolderLight_PERSONAL_USE_ONLY.otf");
+
+    
+}
+
+@font-face {
+    font-family: "HolderBold";
+    src: url("../fonts/HolderBold_PERSONAL_USE_ONLY.otf");
+}
+
+#ContentBanner{
+    background-image: url("../img/fondo-contacto.jpg");
+    /* height: 400px; */
+    width: 100%;
+}
+
+#filter{
+    height: 100%;
+    width: 100%;
+    background-color: rgba(78, 0, 206,0.6);
+    padding-bottom: 100px;
+}
+
+#text{
+    text-align: center;
+    color: white;
+    padding-top: 50px;
+    padding-left: 25%;
+    padding-right: 25%;
+}
+
+#contactanos{
+    font-family: "HolderBold";
+}
+
+#texto{
+    font-family: "HolderLight";
+    font-size: 15px;
+    padding-top: 40px;
+    line-height: 30px;
+}
+
+#content{
+    background-color: white;
+    width: 33%;
+    height: 500px;
+    margin-left: 33%;
+    text-align: center;
+    -webkit-box-shadow: 6px 6px 5px 0px rgba(0,0,0,0.37);
+    -moz-box-shadow: 6px 6px 5px 0px rgba(0,0,0,0.37);
+    box-shadow: 6px 6px 5px 0px rgba(0,0,0,0.37);;
+    margin-top: -100px;
+    padding-top: 50px;
+
+}
+
+
+input{
+    width: 80%;
+    height: 20px;
+    margin-bottom: 20px;
+    border: 1px solid rgb(183, 183, 183);
+} 
+
+.Button{
+    width: 170px;
+    height: 30px;
+    border-radius: 20px;
+    background: -webkit-linear-gradient(left, rgba(41,184,229,1) 0%, rgba(188,224,238,1) 100%);
+    border: none;
+    color: white;
+    cursor: pointer;
+}
+
+.Button:hover{
+    -webkit-box-shadow: 0px 0px 24px 6px rgba(0,0,0,0.57);
+    -moz-box-shadow: 0px 0px 24px 6px rgba(0,0,0,0.57);
+    box-shadow: 0px 0px 24px 6px rgba(0,0,0,0.57);
+    width: 180px;
+    height: 35px;
+}
